@@ -1,6 +1,6 @@
 import numpy as np
 
-def calculate(data_list):  # Changed from `list` to `data_list`
+def calculate(data_list): 
     # Step 1: Validate input
     if len(data_list) != 9:
         raise ValueError("List must contain nine numbers.")
